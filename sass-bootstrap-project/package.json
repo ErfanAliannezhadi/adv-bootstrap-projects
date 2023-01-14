@@ -1,0 +1,16 @@
+{
+  "name": "sass-bootstrap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./assets/scss -o ./assets/css -w -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "node-sass": "^8.0.0"
+  }
+}

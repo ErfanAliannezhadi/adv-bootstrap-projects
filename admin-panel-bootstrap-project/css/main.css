@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+
+*::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+
+*::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+
+/* bootstrap classes override */
+.card {
+    border: none !important;
+    border-radius: 0.7rem;
+}
+
+.card-header:first-child {
+    border-radius: 0.7rem;
+}
+
+.card-header {
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: none;
+}
+
+/* utilities */
+.bg-red {
+    background-color: #ff7976;
+}
+
+.bg-purple {
+    background-color: #9694ff;
+}
+
+.bg-green {
+    background-color: #5ddab4;
+}
+
+.bg-blue {
+    background-color: #57caeb;
+}
+
+.btn-light-primary {
+    background-color: #ebf3ff;
+    color: #002152;
+}
+
+.text-gray-600 {
+    color: #6c757d !important;
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
+}
+
+.lh-0 {
+    line-height: 0;
+}
+
+/* body */
+body {
+    font-family: 'Vazir';
+}
+
+#sidbar {
+    height: 100vh;
+    position: fixed;
+    transition: all 0.5s;
+    overflow: auto;
+}
+
+.sidebar-item {
+    margin-top: 0.5rem;
+}
+
+.sidebar-item .sidebar-link {
+    text-decoration: none;
+    color: #25396f;
+    padding: 0.7rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sidebar-item.active .sidebar-link {
+    background-color: #435ebe;
+    color: #fff;
+}
+
+.sidebar-item .sidebar-link:hover {
+    background-color: #f0f1f5;
+}
+
+.submenu {
+    list-style: none;
+}
+
+.submenu .submenu-item a {
+    padding: 0.7rem 1rem;
+    display: block;
+    color: #25396f;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.submenu .submenu-item a:hover {
+    margin-right: 0.3rem;
+}
+
+#main {
+    background-color: #f2f7ff;
+    transition: all 0.5s;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.profile::after {
+    display: none !important;
+}
+
+#content .stats-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .stats-icon i {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+}

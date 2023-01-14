@@ -1,0 +1,106 @@
+// custom variables
+$primary: #fe8c00;
+$secondary: #f83600;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import "./fonts";
+
+// color
+.grad-color {
+  background: linear-gradient(to right, $primary, $secondary);
+}
+// components
+.btn-rounded-primary {
+  background-color: $white;
+  border-radius: 50rem;
+  border: 0.1rem solid $white;
+
+  &:hover {
+    background-color: $secondary;
+    border: 0.1rem solid $white;
+    color: $white;
+  }
+}
+// heading line
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #f83600;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #f83600;
+}
+
+// icons
+.services .icon {
+  background: #fe8c00;
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+
+.comments {
+  background: linear-gradient(to right, #fe8c00, #f83600);
+}
+
+.carousel-card {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  .info {
+    background-color: rgba(248, 54, 0, 0.75);
+    opacity: 0;
+    transition: all 1s;
+  }
+  img {
+    transition: all 1s;
+  }
+  &:hover {
+    .info {
+      opacity: 1;
+    }
+    img {
+      transform: scale(1.5);
+    }
+  }
+}
+
+.footer {
+  .social-links,
+  .copyright-info {
+    background-color: #212121;
+  }
+  .back-to-top {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.8rem;
+    bottom: 1.8rem;
+    background-color: #f83600;
+    border-color: #f83600;
+    i {
+      color: white;
+      font-size: 1rem;
+    }
+  }
+}

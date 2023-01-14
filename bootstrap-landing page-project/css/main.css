@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: 'Vazir';
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.8 !important;
+
+}
+
+nav {
+    transition: all 0.5s;
+}
+
+#Intro {
+    height: 100vh;
+    width: 100%;
+    background: url('../images/intro/intro-bg.png') no-repeat top center/cover;
+}
+
+.btn-primary {
+    transition: all 0.5s;
+}
+
+.btn-primary:hover {
+    scale: 1.2;
+}
+
+.content {
+    background-color: #f6f9ff;
+    padding: 40px;
+}
+
+#counts i {
+    font-size: 42px;
+}
+
+#features i {
+    color: #4154f1;
+    font-size: 42px;
+}
+
+.service-box {
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: solid 3px;
+}
+
+.bi-arrow-left {
+    line-height: 0;
+}
+
+.bi-chat-left-text-fill {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#service-box-1 {
+    border-color: #2db6fa;
+    transition: all 0.3s;
+}
+
+#service-box-1 a {
+    color: #2db6fa;
+}
+
+#service-box-1 .bi-chat-left-text-fill {
+    color: #2db6fa;
+    background: #dbf3fe
+}
+
+#service-box-1:hover {
+    background-color: #2db6fa;
+    color: #fff;
+}
+
+#service-box-1:hover a {
+    color: #fff;
+}
+
+#service-box-1:hover .bi-chat-left-text-fill {
+    background-color: #fff;
+}
+
+#service-box-2 {
+    border-color: #f68c09;
+    transition: all 0.3s;
+}
+
+#service-box-2 a {
+    color: #f68c09;
+}
+
+#service-box-2 .bi-chat-left-text-fill {
+    color: #f68c09;
+    background: #fde3c4
+}
+
+#service-box-2:hover {
+    background-color: #f68c09;
+    color: #fff;
+}
+
+#service-box-2:hover a {
+    color: #fff;
+}
+
+#service-box-2:hover .bi-chat-left-text-fill {
+    background-color: #fff;
+}
+
+#service-box-3 {
+    border-color: #08da4e;
+    transition: all 0.3s;
+}
+
+#service-box-3 a {
+    color: #08da4e;
+}
+
+#service-box-3 .bi-chat-left-text-fill {
+    color: #08da4e;
+    background: #cffddf
+}
+
+#service-box-3:hover {
+    background-color: #08da4e;
+    color: #fff;
+}
+
+#service-box-3:hover a {
+    color: #fff;
+}
+
+#service-box-3:hover .bi-chat-left-text-fill {
+    background-color: #fff;
+}
+
+#pricing .card {
+    transition: all 0.3s;
+}
+
+#pricing .card:hover {
+    transform: scale(1.1);
+}
+
+.info-box {
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+
+.contact-form {
+    background-color: #fafbff;
+    padding: 30px;
+    height: 100%;
+}
+
+footer .social-links i {
+    font-size: 20px;
+    color: rgba(1, 41, 112, 0.5);
+}
+
+footer hr {
+    width: 70%;
+    height: 5px;
+}
+footer .footer-links a {
+    color: #000;
+}
